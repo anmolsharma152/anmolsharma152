@@ -37,7 +37,8 @@
   <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/LangChain-grey?style=for-the-badge" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
+
 
   <!-- Web Dev -->
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
@@ -56,11 +57,20 @@
 
 ### 📊 GitHub Stats
 
+<!-- 2x2 grid: Top 4 widgets -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anmolsharma152&show_icons=true&theme=dracula&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmolsharma152&theme=dracula&hide_border=true" alt="GitHub Streak"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anmolsharma152&theme=dracula&hide_border=true" alt="Contribution Graph"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolsharma152&layout=compact&theme=dracula&hide_border=true" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=anmolsharma152&show_icons=true&theme=dracula&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmolsharma152&theme=dracula&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolsharma152&layout=compact&theme=dracula&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anmolsharma152&theme=dracula" width="48%" />
+</p>
+
+<!-- Full-width contribution graph at bottom -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anmolsharma152&theme=dracula&hide_border=true&area=true&custom_title=My%20GitHub%20Contribution%20Graph" width="100%" />
 </p>
 
 ---
