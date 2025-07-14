@@ -57,15 +57,20 @@
 
 ### 📊 GitHub Stats
 
-<!-- 2x2 grid: Top 4 widgets -->
+<!-- 2x2 uniform grid with same provider -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anmolsharma152&show_icons=true&theme=dracula&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmolsharma152&theme=dracula&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anmolsharma152&theme=tokyonight" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolsharma152&layout=compact&theme=dracula&hide_border=true" width="48%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anmolsharma152&theme=dracula&hide_border=true&area=true&custom_title=My%20GitHub%20Contribution%20Graph" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anmolsharma152&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/streak?username=anmolsharma152&theme=tokyonight" width="48%" />
+</p>
+
+<!-- Full-width contribution graph -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anmolsharma152&theme=tokyonight" width="100%" />
 </p>
 
 ---
