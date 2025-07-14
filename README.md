@@ -65,12 +65,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmolsharma152&layout=compact&theme=dracula&hide_border=true" width="48%" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=Building+Multi-Agent+Health+AI+🧠;Designing+Emotion-Aware+Assistants+🎤;Lifelong+Learner+%2B+Builder+💡" />
-</p>
-
-<!-- Full-width contribution graph at bottom -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anmolsharma152&theme=dracula&hide_border=true&area=true&custom_title=My%20GitHub%20Contribution%20Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anmolsharma152&theme=dracula&hide_border=true&area=true&custom_title=My%20GitHub%20Contribution%20Graph" width="48%" />
 </p>
 
 ---
