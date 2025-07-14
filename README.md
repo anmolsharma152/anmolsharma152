@@ -59,18 +59,13 @@
 
 <!-- 2x2 Grid: All widgets from `github-profile-summary-cards` -->
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="48%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anmolsharma152&theme=tokyonight" width="48%" />
-</p>
-
-<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anmolsharma152&theme=tokyonight" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anmolsharma152&theme=tokyonight" width="48%" />
 </p>
 
 <!-- Full-width contribution graph -->
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anmolsharma152&theme=tokyonight" width="98%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="98%" />
 </p>
 
 ---
