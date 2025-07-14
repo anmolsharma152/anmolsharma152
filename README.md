@@ -55,21 +55,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<!-- 2x2 Grid: All widgets from `github-profile-summary-cards` -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anmolsharma152&theme=tokyonight" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anmolsharma152&theme=tokyonight" width="48%" />
-</p>
-
-<!-- Full-width contribution graph -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="98%" />
-</p>
-
----
-
 ### ✨ Featured Projects
 
 | 💡 Project | 🛠 Tech Stack | 📘 Description |
@@ -87,3 +72,17 @@
   <a href="mailto:ozymandias.work@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
+---
+
+### 📊 GitHub Stats
+
+<!-- 2x2 Grid: All widgets from `github-profile-summary-cards` -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anmolsharma152&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anmolsharma152&theme=tokyonight" width="48%" />
+</p>
+
+<!-- Full-width contribution graph -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="98%" />
+</p>
