@@ -1,7 +1,6 @@
 # anmolsharma152
 
 <p align="center">
-#  <img src="https://anmolsharma152.vercel.app/profile.png" width="200" height="200" alt="Anmol Sharma Profile Picture">
   <img src="https://github.com/anmolsharma152.png" width="200" height="200" alt="Anmol Sharma GitHub Avatar">
 </p>
 
