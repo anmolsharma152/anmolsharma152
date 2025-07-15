@@ -1,8 +1,3 @@
-# anmolsharma152
-
-<p align="center">
-  <img src="https://github.com/anmolsharma152.png" width="200" height="200" alt="Anmol Sharma GitHub Avatar">
-</p>
 
 <h1 align="center">Hey there, I'm Anmol Sharma! 👋</h1>
 <h3 align="center">AI/ML Practitioner | Blending Critical Thinking with Machine Learning & Data Science</h3>
