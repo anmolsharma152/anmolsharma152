@@ -1,4 +1,3 @@
-
 <h1 align="center">Hey there, I'm Anmol Sharma! 👋</h1>
 <h3 align="center">AI/ML Practitioner | Blending Critical Thinking with Machine Learning & Data Science</h3>
 
