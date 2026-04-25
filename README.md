@@ -1,20 +1,20 @@
 <h1 align="center">Hey there, I'm Anmol Sharma! 👋</h1>
-<h3 align="center">AI/ML Practitioner | Blending Critical Thinking with Machine Learning & Data Science</h3>
+<h3 align="center">AI & Data Science @ IIT Mandi | Generative AI & Agentic Systems</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=anmolsharma152&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views"/>
 </p>
 
+A passionate AI/ML practitioner based in Jaipur, specializing in Generative AI, Retrieval-Augmented Generation (RAG), and Agentic architectures. When I'm not designing systems or training models, you'll likely find me ricing my Arch pc, managing project environments, reading research papers and writing code.
+
 ---
 
-<details>
-<summary><h3>🚀 Current Focus</h3></summary>
+<details open>
+<summary><h3>🚀 Current Focus & What I'm Building</h3></summary>
 
-- 🧠 **Multi-Agent Personal Health Coach**  
-  Building an intelligent system using LangChain & GPT-4 to revolutionize personalized health guidance.
-
-- 🎤 **Emotion-Aware Voice Assistant**  
-  Designing a smart voice assistant that senses emotion and responds empathetically using audio emotion recognition + NLP.
+- 🧠 **MedPal AI:** Developing a neuro-symbolic clinical decision support system utilizing Dual-RAG architectures to bridge the gap between mathematical precision and medical reasoning.
+- 🎤 **Emotion-Aware Voice Assistant:** Building a real-time conversational agent integrating Faster-Whisper, Kokoro TTS, and Silero VAD, powered by **Llama 3.3 70B** as the core reasoning engine for wellness coaching.
+- 🤖 **Autonomous Agents:** Engineering stateful, persistent AI agents with tool-calling capabilities using LangGraph and PostgreSQL (`nexus_bot`).
 
 </details>
 
@@ -23,30 +23,21 @@
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <!-- AI/ML -->
   <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
 
-  <!-- Web Dev -->
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
 
-  <!-- Terminal Tools -->
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/>
   <img src="https://img.shields.io/badge/Neovim-57AD5E?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
   <img src="https://img.shields.io/badge/Zsh-000000?style=for-the-badge&logo=gnubash&logoColor=white" alt="Zsh"/>
+  <img src="https://img.shields.io/badge/uv-DE3423?style=for-the-badge&logo=python&logoColor=white" alt="uv"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 </p>
 
 ---
@@ -55,8 +46,13 @@
 
 | 💡 Project | 🛠 Tech Stack | 📘 Description |
 |-----------|---------------|----------------|
-| 🤖 [Multi-Agent Health Coach](https://github.com/anmolsharma152/Multi-Agent-Health-Coach) | LangChain, GPT-4, Pinecone | Intelligent multi-agent coaching for personalized health |
-| 🎤 [Emotion-Aware Voice Assistant](https://github.com/anmolsharma152/emotion_voice_assistant) | Python, Deep Learning, Audio, NLP | Real-time assistant that adapts to your emotion through voice |
+| 🏥 **[MedPal](https://github.com/anmolsharma152/MedPal)** | Python, RAG | The first Neuro-Symbolic Clinical Decision Support System with Dual-RAG. |
+| 🎤 **[Emotion-Aware-Voice-Assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant)** | Python, Whisper, ONNX | Real-time, emotion-aware voice assistant for wellness coaching with instant barge-in. |
+| 🤖 **[nexus_bot](https://github.com/anmolsharma152/nexus_bot)** | LangGraph, PostgreSQL | A stateful autonomous agent demonstrating persistence and tool calling. |
+| 📚 **[wikirag](https://github.com/anmolsharma152/wikirag)** | FAISS, RoBERTa, CPU | A lightweight, local RAG engine for Wikipedia that runs 100% offline. |
+| 👁️ **[Visual-Perception-CNN](https://github.com/anmolsharma152/Visual-Perception-CNN)** | Jupyter, CNN, AdaMax | Custom Deep Convolutional Neural Network optimized for high-accuracy image classification. |
+| 📈 **[CLTV-Unit-Economics-Engine](https://github.com/anmolsharma152/CLTV-Unit-Economics-Engine)** | Python, BG/NBD | A probabilistic ML engine predicting Customer Lifetime Value and Churn Risk. |
+| 🌐 **[portfolio-website](https://github.com/anmolsharma152/portfolio-website)** | Next.js, TS, Tailwind | Modern, interactive developer portfolio with clean design and smooth animations. |
 
 ---
 
@@ -72,13 +68,11 @@
 
 ### 📊 GitHub Stats
 
-<!-- 2x2 Grid: All widgets from `github-profile-summary-cards` -->
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anmolsharma152&theme=tokyonight" width="48%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anmolsharma152&theme=tokyonight" width="48%" />
 </p>
 
-<!-- Full-width contribution graph -->
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anmolsharma152&theme=tokyonight" width="98%" />
 </p>
