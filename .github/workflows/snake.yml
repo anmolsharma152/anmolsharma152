@@ -14,13 +14,10 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate contribution animations
-        uses: Platane/snk/svg-only@v3
+      - name: generate pacman animation
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
