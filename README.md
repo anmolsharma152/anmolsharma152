@@ -21,11 +21,8 @@ Term    →  Ghostty + Tmux
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man.svg">
-  <img alt="pac-man contribution graph" src="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man.svg">
-</picture>
+![contribution graph](https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![contribution graph](https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 ---
 
