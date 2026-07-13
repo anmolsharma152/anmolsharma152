@@ -1,18 +1,32 @@
-# 🏛️ system --manifest
+# anmol sharma
 
-### 📡 Active Processes
-* **Current Sprint:** [CodexEngine](https://github.com/anmolsharma152/CodexEngine) — Architecting self-correcting Agentic RAG systems.
-* **R&D:** Optimizing **pgvector** scaling and **FastAPI** async agent orchestration.
-* **Latent Space:** Bridging the Semantic Horizon via Dual-RAG & LangGraph.
-
-### 🐍 Contribution Grind
-![snake gif](https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-snake-dark.svg)
-
-### ⚙️ Environment Config
-* **OS:** Arch Linux (Gnome / DWM)
-* **Terminal:** Ghostty + Neovim + Tmux
-* **Shell:** Fish / Starship
-* **Optics:** Capturing wildlife frames when the gradients stop descending.
+> building things that think. occasionally captures wildlife when the gradients stop descending.
 
 ---
-"Gradients over politics. Logic over noise."
+
+### 🔬 active
+
+**[Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop)** — personal spaced-repetition agent. emails 2 study notes daily across DSA, ML/AI, system design & papers. LLM-scored, auto-delivered via GitHub Actions.
+
+---
+
+### ⚙️ env
+
+```
+OS      →  Arch Linux  (Gnome / DWM)
+Editor  →  Neovim
+Shell   →  Fish + Starship
+Term    →  Ghostty + Tmux
+```
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man.svg">
+  <img alt="pac-man contribution graph" src="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/github-contribution-grid-pac-man.svg">
+</picture>
+
+---
+
+*"Gradients over politics. Logic over noise."*
