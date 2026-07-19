@@ -2,8 +2,6 @@
 
 > building things that think. occasionally captures wildlife when the gradients stop descending.
 
-**Docs:** [docs/STATUS.md](./docs/STATUS.md) · [docs/setup.md](./docs/setup.md) · [AGENTS.md](./AGENTS.md)
-
 ---
 
 ### 🔬 active
