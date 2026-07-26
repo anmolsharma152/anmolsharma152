@@ -16,6 +16,9 @@ jobs:
       contents: write
 
     steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
       - name: generate pacman animation
         uses: abozanona/pacman-contribution-graph@main
         with:
