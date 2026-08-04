@@ -4,7 +4,7 @@
 
 **Building systems that think. Architecting AI runtimes, autonomous agents & high-throughput systems.**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-anmolsharma.dev-12100E?style=for-the-badge&logo=astro&logoColor=white)](https://anmolsharma152.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-anmolsharma152.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://anmolsharma152.vercel.app)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-okozymandias-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/okozymandias)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anmolsharma152-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anmolsharma152)
 [![X / Twitter](https://img.shields.io/badge/X-@ozymandias152-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ozymandias152)
