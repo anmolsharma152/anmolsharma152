@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-anmolsharma.dev-12100E?style=for-the-badge&logo=astro&logoColor=white)](https://anmolsharma152.github.io)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-anmolsharma152-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/anmolsharma152)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anmol_Sharma-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anmolsharma152)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-anmolsharma152-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anmolsharma152)
 [![X / Twitter](https://img.shields.io/badge/X-@anmolsharma152-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anmolsharma152)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmolsharma152@gmail.com)
 
