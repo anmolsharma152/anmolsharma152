@@ -2,7 +2,8 @@
 
 # ⚡ Anmol Sharma
 
-**Building systems that think. Architecting AI runtimes, autonomous agents & high-throughput systems.**
+**AI Systems Engineer · AI & Data Science Minor @ IIT Mandi**  
+*Building systems that think. Architecting AI runtimes, autonomous agents & high-throughput systems.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-anmolsharma152.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://anmolsharma152.vercel.app)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-okozymandias-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/okozymandias)
@@ -10,44 +11,11 @@
 [![X / Twitter](https://img.shields.io/badge/X-@ozymandias152-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ozymandias152)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmolsharma152.dev@gmail.com)
 
-</div>
+<br/>
 
----
+### 🛠️ Tech Stack & Tooling
 
-### 💻 Stack & Tooling
-
-<div align="center">
-
-**Languages**<br/>
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frameworks, Runtimes & Tools**<br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Cargo](https://img.shields.io/badge/Cargo-000000?style=flat-square&logo=rust&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**AI / ML & Agent Orchestration**<br/>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat-square&logoColor=black)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square&logo=langchain&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Unsloth](https://img.shields.io/badge/Unsloth-LoRA-FF6B6B?style=flat-square)
-
-**Environment & Setup**<br/>
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
-![Ghostty](https://img.shields.io/badge/Ghostty-Terminal-222222?style=flat-square)
-![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white)
-![Fish](https://img.shields.io/badge/Fish_Shell-4E9A06?style=flat-square)
+[![My Skills](https://skillicons.dev/icons?i=rust,go,py,cpp,ts,postgres,pytorch,fastapi,nextjs,docker,arch,neovim,linux,git&perline=7&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -55,25 +23,45 @@
 
 ### 🔬 Active Sprints
 
-* 🚀 **[Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop)** — Spaced-repetition study agent with FSRS scheduling & daily automated quizzes across DSA, ML/AI, System Design & papers.
-* 📍 **[Disha](https://github.com/anmolsharma152/Disha)** — Multi-agent Personal Intelligence & job market intel platform (LangGraph, pgvector, FastAPI + Next.js).
-* ⚙️ **[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** — Self-hosted document intelligence platform exploring persistent AI workspaces.
+* 🚀 **[Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop)** — Spaced-repetition study agent with FSRS scheduling & daily automated quizzes across DSA, ML/AI, System Design & papers.  
+  `Python` · `FastAPI` · `FSRS Algorithm` · `GitHub Actions`
+* 📍 **[Disha](https://github.com/anmolsharma152/Disha)** — Multi-agent Personal Intelligence & job market intel platform.  
+  `LangGraph` · `pgvector` · `PostgreSQL` · `FastAPI` · `Next.js`
+* ⚙️ **[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** — Self-hosted document intelligence platform exploring persistent AI workspaces.  
+  `Python` · `Agentic RAG` · `Vector DB` · `Async Architecture`
 
 ---
 
 ### ⚡ Systems & Runtimes (Go / Rust)
 
-* 🦀 **[microgguf](https://github.com/anmolsharma152/microgguf)** — Zero-dependency GGUF (Qwen/Llama) quantized CPU tensor inference engine in pure Rust with AVX2 SIMD intrinsics.
-* 🐹 **[respy](https://github.com/anmolsharma152/respy)** — High-throughput Redis-compatible TCP server & Pub/Sub event broker built from scratch in Go (zero third-party deps).
-* ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — Lightweight, self-contained autonomous AI agent runtime in pure Rust.
+* 🦀 **[microgguf](https://github.com/anmolsharma152/microgguf)** — Zero-dependency GGUF (Qwen/Llama) quantized CPU tensor inference engine in pure Rust with AVX2 SIMD intrinsics.  
+  `Rust` · `AVX2 SIMD` · `GGUF v3` · `Zero-Deps`
+* 🐹 **[respy](https://github.com/anmolsharma152/respy)** — High-throughput Redis-compatible TCP server & Pub/Sub event broker built from scratch in Go.  
+  `Go` · `TCP / RESP2` · `Pub/Sub` · `Lock-Free Storage`
+* ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — Lightweight, self-contained autonomous AI agent runtime in pure Rust.  
+  `Rust` · `Async` · `Tool-Calling` · `Agent Runtime`
 
 ---
 
 ### 🧠 Fine-Tuning & Applied AI
 
-* 🤗 **[sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor)** — Fine-tuning Sarvam-1 (2B) via Unsloth + LoRA on synthetic Nemotron-Super 49B data for Hinglish, Hindi, & English instruction following.
-* 🏥 **[MedPal](https://github.com/anmolsharma152/MedPal)** — Neuro-symbolic clinical decision support (Tabular ResNet + Dual-RAG over medical literature).
-* 💡 **[IdeaForge](https://github.com/anmolsharma152/IdeaForge)** — Agentic creative synthesis engine with compounding memory.
+* 🤗 **[sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor)** — Fine-tuning Sarvam-1 (2B) via Unsloth + LoRA on synthetic Nemotron-Super 49B data for Hinglish, Hindi, & English instruction following.  
+  `Unsloth` · `LoRA` · `PyTorch` · `vLLM` · `Hugging Face`
+* 🏥 **[MedPal](https://github.com/anmolsharma152/MedPal)** — Neuro-symbolic clinical decision support system.  
+  `Tabular ResNet` · `Dual-RAG` · `Medical NLP` · `Python`
+* 💡 **[IdeaForge](https://github.com/anmolsharma152/IdeaForge)** — Agentic creative synthesis engine with compounding memory.  
+  `LangChain` · `Memory Engine` · `FastAPI` · `Python`
+
+---
+
+### ⚙️ Environment
+
+```
+OS      →  Arch Linux  (Gnome / DWM)
+Editor  →  Neovim
+Shell   →  Fish + Starship
+Term    →  Ghostty + Tmux
+```
 
 ---
 
