@@ -23,10 +23,10 @@
 
 ### 🌌 Featured Systems & Full-Stack Workstations
 
+* ☁️ **[Nimbus](https://github.com/anmolsharma152/nimbus)** — Cloud-native autonomous software engineering agent platform. Delegates repo cloning, code edits, sandbox browser/test execution, and automated pull requests via disposable isolated cloud workspaces.  
+  `Python` · `Cloud-Native` · `Docker Sandboxing` · `Agentic Control Plane` · `Security Isolation`
 * 🌌 **[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck)** — Full-stack DSA practice workstation & adaptive learning engine with VS Code Monaco IDE and SuperMemo-2 (SM-2) spaced repetition math.  
   `Node.js` · `Express` · `PostgreSQL 16` · `Docker Compose` · `Monaco IDE` · `Subprocess Sandbox`
-* 🔒 **[Aura](https://github.com/anmolsharma152/Aura)** — Linux biometric facial authentication system with C PAM client, ONNX daemon, and TPM 2.0 hardware unsealing.  
-  `C` · `Linux PAM` · `ONNX Runtime` · `TPM 2.0 (tpm2-tss)` · `Unix Domain Sockets`
 * ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — High-performance autonomous AI agent runtime and CLI in pure Rust with REPL command interceptors.  
   `Rust` · `Async Tokio` · `CLI / REPL` · `Memory Safety` · `Zero-Deps`
 
