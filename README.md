@@ -47,40 +47,61 @@
 
 ---
 
-### 🌌 Featured Systems & Full-Stack Workstations
+### 🦀 Systems, Low-Level Runtimes & Infrastructure (Rust / Go / C)
 
-* ☁️ **[Nimbus](https://github.com/anmolsharma152/nimbus)** — Cloud-native autonomous software engineering agent platform. Delegates repo cloning, code edits, sandbox browser/test execution, and automated pull requests via disposable isolated cloud workspaces.  
-  **Tech:** Python · Cloud-Native · Docker Sandboxing · Agentic Control Plane · Security Isolation
+* ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — High-performance autonomous AI agent runtime and CLI in pure Rust with Tokio async & REPL command interceptors.  
+  **Tech:** Rust · Async Tokio · CLI / REPL · Memory Safety · Zero-Deps
+* 🦀 **[microgguf](https://github.com/anmolsharma152/microgguf)** — Zero-dependency GGUF (Qwen/Llama) quantized CPU tensor inference engine in pure Rust with AVX2 SIMD intrinsics.  
+  **Tech:** Rust · AVX2 SIMD · GGUF v3 · Zero-Deps
+* 🎙️ **[vad_processor](https://github.com/anmolsharma152/vad_processor)** — Real-time client-side Voice Activity Detection engine compiled to WebAssembly with Rust & ONNX Runtime.  
+  **Tech:** Rust · WebAssembly · ONNX Runtime · Audio DSP
+* 🐹 **[respy](https://github.com/anmolsharma152/respy)** — High-throughput Redis-compatible TCP server & Pub/Sub event broker built from scratch in Go (zero third-party deps).  
+  **Tech:** Go · TCP / RESP2 · Pub/Sub · Lock-Free Storage
 * 🔒 **[Aura](https://github.com/anmolsharma152/Aura)** — Linux biometric facial authentication system with C PAM client, ONNX daemon, and TPM 2.0 hardware unsealing.  
   **Tech:** C · Linux PAM · ONNX Runtime · TPM 2.0 (tpm2-tss) · Unix Domain Sockets
-* 🌌 **[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck)** — Full-stack DSA practice workstation & adaptive learning engine with VS Code Monaco IDE and SuperMemo-2 (SM-2) spaced repetition math.  
-  **Tech:** Node.js · Express · PostgreSQL 16 · Docker Compose · Monaco IDE · Subprocess Sandbox
-* ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — High-performance autonomous AI agent runtime and CLI in pure Rust with REPL command interceptors.  
-  **Tech:** Rust · Async Tokio · CLI / REPL · Memory Safety · Zero-Deps
 
 ---
 
-### 🤖 LLMOps, Agentic RAG & Evaluation
+### 🤖 Agentic Platforms & LLMOps
 
-* 🌐 **[commerce_cortex](https://github.com/anmolsharma152/commerce_cortex)** — Stateful commerce backend with LangGraph state machine routing, Postgres checkpoints, and 3-tier LLMOps observability.  
-  **Tech:** FastAPI · LangGraph · PostgreSQL · OpenLLMetry (OTel) · Langfuse · DeepEval
-* ⚙️ **[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** — Production document intelligence platform built on LangGraph state machines, pgvector multi-tenant storage, and RAGAS evaluations.  
-  **Tech:** Python · LangGraph · pgvector · LangSmith · RAGAS · Docker
+* ☁️ **[Nimbus](https://github.com/anmolsharma152/nimbus)** — Cloud-native autonomous software engineering agent platform delegating repo cloning, code edits, and PR creation via isolated cloud workspaces.  
+  **Tech:** Python · Cloud-Native · Docker Sandboxing · Agentic Control Plane
 * 📍 **[Disha](https://github.com/anmolsharma152/Disha)** — Multi-agent job market intelligence platform with cyclic supervisor routing and dynamic session memory isolation.  
   **Tech:** LangGraph · pgvector · FastAPI · Next.js 14 · Playwright
-* 🧪 **[PromptCraft Lab](https://github.com/anmolsharma152/promptcraft-lab)** — Research instrument & Streamlit web dashboard for benchmarking prompt architectures and quantitative sensitivity matrices.  
-  **Tech:** Python · Streamlit · Jinja2 · Multi-Agent Consensus · Benchmarking
+* ⚙️ **[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** — Production document intelligence platform built on LangGraph state machines, pgvector multi-tenant storage, and RAGAS evaluations.  
+  **Tech:** Python · LangGraph · pgvector · LangSmith · RAGAS · Docker
+* 🌐 **[commerce_cortex](https://github.com/anmolsharma152/commerce_cortex)** — Stateful commerce backend with LangGraph state machine routing, Postgres checkpoints, and 3-tier LLMOps observability.  
+  **Tech:** FastAPI · LangGraph · PostgreSQL · OpenLLMetry (OTel) · Langfuse · DeepEval
+* 💼 **[Ozyman](https://github.com/anmolsharma152/Ozyman)** — Personal Operator OS and career assistant built on InsForge + Composio tooling.  
+  **Tech:** TypeScript · InsForge · Composio · Multi-Agent Tooling
 
 ---
 
-### 🧠 Fine-Tuning & Applied Machine Learning
+### 🧠 Fine-Tuning, Applied AI & ML Research
 
 * 🤗 **[sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor)** — Fine-tuning Sarvam-1 (3B) on 10K synthetic Indic instruction samples distilled from Nemotron-Super 49B via 4-bit NF4 QLoRA.  
   **Tech:** PyTorch · QLoRA · PEFT · vLLM · W&B
 * 💡 **[IdeaForge](https://github.com/anmolsharma152/IdeaForge)** — Persistent agentic creative synthesis engine with dual-process System 1 / System 2 reasoning loop.  
   **Tech:** LangGraph · FastEmbed · pgvector · FastAPI · HTML5 SPA
+* 🩺 **[WellnessMate](https://github.com/anmolsharma152/WellnessMate)** — Multi-agent health & wellness assistant utilizing medical knowledge graphs & RAG.  
+  **Tech:** Python · LangChain · Multi-Agent RAG · FastAPI
+* 🏥 **[MedPal](https://github.com/anmolsharma152/MedPal)** — Neuro-symbolic clinical decision support system combining Tabular ResNet risk engine with Dual-RAG over medical literature.  
+  **Tech:** PyTorch · Tabular ResNet · Dual-RAG · Medical NLP
 * 🚀 **[Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop)** — Autonomous active-recall study agent running FSRS-scheduled Learn + Quiz execution loops with Resend API email delivery.  
   **Tech:** Python · FastAPI · FSRS Algorithm · Obsidian Ingest · Resend API
+* 📓 **[ML Foundations & Colab Notebooks](https://github.com/anmolsharma152/ML-Foundations)** — Curated Deep Learning, Computer Vision, NLP, and Reinforcement Learning (PPO/A2C) notebooks from IIT Mandi DSAI coursework.  
+  **Tech:** PyTorch · Jupyter Notebooks · Reinforcement Learning · Transformers
+
+---
+
+### 🌐 Workstations, Calculators & Data Tools
+
+* 🌌 **[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck)** — Full-stack DSA practice workstation & adaptive learning engine with VS Code Monaco IDE and SuperMemo-2 (SM-2) spaced repetition math.  
+  **Tech:** Node.js · Express · PostgreSQL 16 · Docker Compose · Monaco IDE
+* 📊 **[Delusion / Rishta Calculator](https://github.com/anmolsharma152/Delusion-Calculator)** — Demographic & marriage standards calculator powered by real US Census ACS & CDC NHANES microdata.  
+  **Tech:** TypeScript · Next.js · US Census Microdata · CDC NHANES
+* 🧪 **[PromptCraft Lab](https://github.com/anmolsharma152/promptcraft-lab)** — Research instrument & Streamlit web dashboard for benchmarking prompt architectures and quantitative sensitivity matrices.  
+  **Tech:** Python · Streamlit · Jinja2 · Multi-Agent Consensus
 
 ---
 
