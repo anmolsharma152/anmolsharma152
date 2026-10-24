@@ -1,137 +1,48 @@
-<div align="center">
+## Anmol Sharma
 
-# ⚡ Anmol Sharma
+AI and systems engineer. I build LLM agents, retrieval systems and the backend infrastructure they run on, in Python and Rust, with Go when it fits. I like working close to Linux: sandboxing, authentication, servers and runtimes. I studied Data Science and AI at IIT Mandi.
 
-**AI Engineer · Systems & Full-Stack Developer · AI & Data Science Minor @ IIT Mandi**  
-*Building systems that think. Architecting LLMOps platforms, edge biometrics, autonomous agents & high-throughput backend services.*
+I'm looking for roles in **AI engineering, agentic systems, backend/systems engineering and applied research**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://anmolsharma152.vercel.app)
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-okozymandias-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/okozymandias)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-anmolsharma152-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anmolsharma152)
-[![X / Twitter](https://img.shields.io/badge/X-ozymandias152-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ozymandias152)
-[![Email](https://img.shields.io/badge/Email-anmolsharma152.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anmolsharma152.dev@gmail.com)
+### Building now
 
-<br/>
+**CanonData** (private): a reconciliation and audit engine for e-commerce financial exports. It rebuilds one consistent view of orders, inventory and ad spend from Shopify, Amazon, Meta and Google CSVs, traces every figure back to its source row, and runs nine detectors for margin leaks. Language-model answers must match engine-computed numbers or are replaced by a deterministic template. Python, Polars, FastAPI, PostgreSQL; 200+ tests.
 
-### 🛠️ Tech Stack & Tooling
+### Agentic AI and ML
 
-**Languages**<br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+| Project | |
+|---|---|
+| [Nimbus](https://github.com/anmolsharma152/nimbus) | Coding agent that runs each task in a locked-down Docker container (all capabilities dropped, memory, CPU and process limits), runs the tests and opens a pull request, streaming output over WebSockets. FastAPI, Redis/arq, PostgreSQL. [Demo](https://nimbusagent.vercel.app/) |
+| [CodexEngine](https://github.com/anmolsharma152/CodexEngine) | RAG service with a LangGraph pipeline, hybrid pgvector + BM25 retrieval, CrossEncoder reranking and RAGAS evaluation on a golden query set. [Demo](https://codex-engine.vercel.app/) |
+| [Disha](https://github.com/anmolsharma152/Disha) | Multi-agent job-market research platform: a LangGraph supervisor routes between specialist agents, with pgvector memory and Playwright data collection. |
+| [commerce_cortex](https://github.com/anmolsharma152/commerce_cortex) | Stateful operations agent with Postgres-checkpointed LangGraph state, human-in-the-loop approvals, and tracing and evals through OpenLLMetry, Langfuse and DeepEval. |
+| [Emotion-Aware Voice Assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant) | Real-time voice assistant with a fully local audio pipeline: Silero VAD in the browser, faster-whisper speech-to-text, emotion detection and Kokoro text-to-speech behind FastAPI. |
+| [sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor) | Instruction-tuning Sarvam-1 (2B) for Hindi, Hinglish and English. 15K synthetic instructions distilled from Nemotron-Super 49B, with a QLoRA training, evaluation and serving pipeline; GPU training run in progress. |
 
-<br/>
+### Systems and Linux
 
-**AI / ML & LLMOps**<br/>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat-square&logoColor=black)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square&logo=langchain&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005FE6?style=flat-square&logo=onnx&logoColor=white)
+| Project | |
+|---|---|
+| [rust-agent-core](https://github.com/anmolsharma152/rust-agent-core) | Terminal agent runtime in Rust (Tokio): a single-binary REPL with tool calling gated by read-only, safe and unrestricted modes, and local ONNX embeddings, so search needs no network. |
+| [respy](https://github.com/anmolsharma152/respy) | Redis-compatible server and pub/sub broker written from scratch in Go with only the standard library, including AOF and RDB persistence. |
+| [Aura](https://github.com/anmolsharma152/Aura) | Face authentication for Linux login and `sudo`: a small C PAM module talks over a Unix socket to a Python daemon that runs ONNX liveness and recognition models. |
+| [vad_processor](https://github.com/anmolsharma152/vad_processor) | Voice activity detection in Rust compiled to WebAssembly, running client-side in the browser. |
+| [Space Marine theme](https://github.com/anmolsharma152/omarchy-space-marine-theme) | Desktop theme for Omarchy (Arch + Hyprland), listed in the official Omarchy theme gallery. |
+| [Dotfiles](https://github.com/anmolsharma152/omarchy-quattro-dotfiles) and [homelab](https://github.com/anmolsharma152/homelab) | My Hyprland workstation configuration, and a Docker Compose homelab behind Caddy with PostgreSQL, Redis and self-hosted AI services. |
 
-<br/>
+### Open source
 
-**Environment & Setup**<br/>
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
-![Ghostty](https://img.shields.io/badge/Ghostty-Terminal-222222?style=flat-square)
-![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white)
-![Fish](https://img.shields.io/badge/Fish_Shell-4E9A06?style=flat-square)
+- **[Omarchy](https://github.com/omacom/omarchy)**: [Space Marine theme added to the theme gallery](https://github.com/omacom/omarchy-site/pull/445) (merged); open PRs for [volume control routing](https://github.com/omacom/omarchy/pull/14683) and the [Wayland session file](https://github.com/omacom/omarchy/pull/15812).
+- **[hiring-agent](https://github.com/interviewstreet/hiring-agent)** (HackerRank): [fixed parsing of nested GitHub profile fields](https://github.com/interviewstreet/hiring-agent/pull/362) (merged).
 
-</div>
+### Other projects
+
+[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck) (DSA practice workstation with an in-browser editor and SM-2 review scheduling) · [IdeaForge](https://github.com/anmolsharma152/IdeaForge) (LangGraph idea-generation agent with pgvector memory) · [Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop) (FSRS spaced-repetition study agent)
+
+### Tools
+
+Python, Rust, Go, SQL, TypeScript · LangGraph, PyTorch, Hugging Face, ONNX · FastAPI, PostgreSQL / pgvector, Redis, Docker · Linux
 
 ---
 
-### 🦀 Systems, Low-Level Runtimes & Infrastructure (Rust / Go / C)
-
-* ⚙️ **[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** — High-performance autonomous AI agent runtime and CLI in pure Rust with Tokio async & REPL command interceptors.  
-  **Tech:** Rust · Async Tokio · CLI / REPL · Memory Safety · Zero-Deps
-* 🦀 **[microgguf](https://github.com/anmolsharma152/microgguf)** — Zero-dependency GGUF (Qwen/Llama) quantized CPU tensor inference engine in pure Rust with AVX2 SIMD intrinsics.  
-  **Tech:** Rust · AVX2 SIMD · GGUF v3 · Zero-Deps
-* 🎙️ **[vad_processor](https://github.com/anmolsharma152/vad_processor)** — Real-time client-side Voice Activity Detection engine compiled to WebAssembly with Rust & ONNX Runtime.  
-  **Tech:** Rust · WebAssembly · ONNX Runtime · Audio DSP
-* 🐹 **[respy](https://github.com/anmolsharma152/respy)** — High-throughput Redis-compatible TCP server & Pub/Sub event broker built from scratch in Go (zero third-party deps).  
-  **Tech:** Go · TCP / RESP2 · Pub/Sub · Lock-Free Storage
-* 🔒 **[Aura](https://github.com/anmolsharma152/Aura)** — Linux biometric facial authentication system with C PAM client, ONNX daemon, and TPM 2.0 hardware unsealing.  
-  **Tech:** C · Linux PAM · ONNX Runtime · TPM 2.0 (tpm2-tss) · Unix Domain Sockets
-
----
-
-### 🤖 Agentic Platforms & LLMOps
-
-* ☁️ **[Nimbus](https://github.com/anmolsharma152/nimbus)** — Cloud-native autonomous software engineering agent platform delegating repo cloning, code edits, and PR creation via isolated cloud workspaces.  
-  **Tech:** Python · Cloud-Native · Docker Sandboxing · Agentic Control Plane
-* 📍 **[Disha](https://github.com/anmolsharma152/Disha)** — Multi-agent job market intelligence platform with cyclic supervisor routing and dynamic session memory isolation.  
-  **Tech:** LangGraph · pgvector · FastAPI · Next.js 14 · Playwright
-* ⚙️ **[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** — Production document intelligence platform built on LangGraph state machines, pgvector multi-tenant storage, and RAGAS evaluations.  
-  **Tech:** Python · LangGraph · pgvector · LangSmith · RAGAS · Docker
-* 🌐 **[commerce_cortex](https://github.com/anmolsharma152/commerce_cortex)** — Stateful commerce backend with LangGraph state machine routing, Postgres checkpoints, and 3-tier LLMOps observability.  
-  **Tech:** FastAPI · LangGraph · PostgreSQL · OpenLLMetry (OTel) · Langfuse · DeepEval
-* 💼 **[Ozyman](https://github.com/anmolsharma152/Ozyman)** — Personal Operator OS and career assistant built on InsForge + Composio tooling.  
-  **Tech:** TypeScript · InsForge · Composio · Multi-Agent Tooling
-
----
-
-### 🧠 Fine-Tuning, Applied AI & ML Research
-
-* 🤗 **[sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor)** — Fine-tuning Sarvam-1 (3B) on 10K synthetic Indic instruction samples distilled from Nemotron-Super 49B via 4-bit NF4 QLoRA.  
-  **Tech:** PyTorch · QLoRA · PEFT · vLLM · W&B
-* 💡 **[IdeaForge](https://github.com/anmolsharma152/IdeaForge)** — Persistent agentic creative synthesis engine with dual-process System 1 / System 2 reasoning loop.  
-  **Tech:** LangGraph · FastEmbed · pgvector · FastAPI · HTML5 SPA
-* 🩺 **[WellnessMate](https://github.com/anmolsharma152/WellnessMate)** — Multi-agent health & wellness assistant utilizing medical knowledge graphs & RAG.  
-  **Tech:** Python · LangChain · Multi-Agent RAG · FastAPI
-* 🏥 **[MedPal](https://github.com/anmolsharma152/MedPal)** — Neuro-symbolic clinical decision support system combining Tabular ResNet risk engine with Dual-RAG over medical literature.  
-  **Tech:** PyTorch · Tabular ResNet · Dual-RAG · Medical NLP
-* 🚀 **[Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop)** — Autonomous active-recall study agent running FSRS-scheduled Learn + Quiz execution loops with Resend API email delivery.  
-  **Tech:** Python · FastAPI · FSRS Algorithm · Obsidian Ingest · Resend API
-* 📓 **[ML Foundations & Colab Notebooks](https://github.com/anmolsharma152/ML-Foundations)** — Curated Deep Learning, Computer Vision, NLP, and Reinforcement Learning (PPO/A2C) notebooks from IIT Mandi DSAI coursework.  
-  **Tech:** PyTorch · Jupyter Notebooks · Reinforcement Learning · Transformers
-
----
-
-### 🌐 Workstations, Calculators & Data Tools
-
-* 🌌 **[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck)** — Full-stack DSA practice workstation & adaptive learning engine with VS Code Monaco IDE and SuperMemo-2 (SM-2) spaced repetition math.  
-  **Tech:** Node.js · Express · PostgreSQL 16 · Docker Compose · Monaco IDE
-* 📊 **[Delusion / Rishta Calculator](https://github.com/anmolsharma152/Delusion-Calculator)** — Demographic & marriage standards calculator powered by real US Census ACS & CDC NHANES microdata.  
-  **Tech:** TypeScript · Next.js · US Census Microdata · CDC NHANES
-* 🧪 **[PromptCraft Lab](https://github.com/anmolsharma152/promptcraft-lab)** — Research instrument & Streamlit web dashboard for benchmarking prompt architectures and quantitative sensitivity matrices.  
-  **Tech:** Python · Streamlit · Jinja2 · Multi-Agent Consensus
-
----
-
-### ⚙️ Environment
-
-```
-OS      →  Arch Linux  (Gnome / Wayland)
-Editor  →  Neovim
-Shell   →  Fish + Starship
-Term    →  Ghostty + Tmux
-```
-
----
-
-### 📊 GitHub Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/anmolsharma152/anmolsharma152/output/pacman-contribution-graph-dark.svg">
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-*"Gradients over politics. Logic over noise."*
-
-</div>
+[Portfolio](https://anmolsharma152.vercel.app) · [LinkedIn](https://linkedin.com/in/anmolsharma152) · [Hugging Face](https://huggingface.co/okozymandias) · [X](https://x.com/ozymandias152) · [Email](mailto:anmolsharma152.dev@gmail.com)
