@@ -1,47 +1,33 @@
 ## Anmol Sharma
 
-AI and systems engineer. I build LLM agents, retrieval systems and the backend infrastructure they run on, in Python and Rust, with Go when it fits. I like working close to Linux: sandboxing, authentication, servers and runtimes. I studied Data Science and AI at IIT Mandi.
+I build AI agents and the systems underneath them. Most of my work sits where the two meet: an agent is only as trustworthy as the sandbox it runs in, the retrieval it relies on and the numbers it reports. I work mainly in Python, build the web side in TypeScript with Next.js, reach for Rust and Go when performance matters, and do all of it on a Linux setup I maintain myself. I studied Data Science and AI at IIT Mandi.
 
-I'm looking for roles in **AI engineering, agentic systems, backend/systems engineering and applied research**.
+I'm looking for roles in AI engineering, agentic systems, backend and systems engineering, or applied research.
 
-### Building now
+### What I'm building
 
-**CanonData** (private): a reconciliation and audit engine for e-commerce financial exports. It rebuilds one consistent view of orders, inventory and ad spend from Shopify, Amazon, Meta and Google CSVs, traces every figure back to its source row, and runs nine detectors for margin leaks. Language-model answers must match engine-computed numbers or are replaced by a deterministic template. Python, Polars, FastAPI, PostgreSQL; 200+ tests.
+**CanonData** (private) turns the messy CSV exports a store already has, from Shopify, Amazon, Meta and Google, into numbers the business can audit. Every figure traces back to the file, row and column it came from. When a language model answers a question, its numbers have to match what the engine computed, or the answer is replaced with a deterministic one.
 
-### Agentic AI and ML
+### Selected work
 
-| Project | |
-|---|---|
-| [Nimbus](https://github.com/anmolsharma152/nimbus) | Coding agent that runs each task in a locked-down Docker container (all capabilities dropped, memory, CPU and process limits), runs the tests and opens a pull request, streaming output over WebSockets. FastAPI, Redis/arq, PostgreSQL. [Demo](https://nimbusagent.vercel.app/) |
-| [CodexEngine](https://github.com/anmolsharma152/CodexEngine) | RAG service with a LangGraph pipeline, hybrid pgvector + BM25 retrieval, CrossEncoder reranking and RAGAS evaluation on a golden query set. [Demo](https://codex-engine.vercel.app/) |
-| [Disha](https://github.com/anmolsharma152/Disha) | Multi-agent job-market research platform: a LangGraph supervisor routes between specialist agents, with pgvector memory and Playwright data collection. |
-| [commerce_cortex](https://github.com/anmolsharma152/commerce_cortex) | Stateful operations agent with Postgres-checkpointed LangGraph state, human-in-the-loop approvals, and tracing and evals through OpenLLMetry, Langfuse and DeepEval. |
-| [Emotion-Aware Voice Assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant) | Real-time voice assistant with a fully local audio pipeline: Silero VAD in the browser, faster-whisper speech-to-text, emotion detection and Kokoro text-to-speech behind FastAPI. |
-| [sarvam-1-indic-instructor](https://github.com/anmolsharma152/sarvam-1-indic-instructor) | Instruction-tuning Sarvam-1 (2B) for Hindi, Hinglish and English. 15K synthetic instructions distilled from Nemotron-Super 49B, with a QLoRA training, evaluation and serving pipeline; GPU training run in progress. |
+**[Nimbus](https://github.com/anmolsharma152/nimbus)** gives a coding agent a disposable Docker container with every Linux capability dropped and hard limits on memory, CPU and processes, then lets it edit a repository, run the tests and open a pull request. [Live demo](https://nimbusagent.vercel.app/)
 
-### Systems and Linux
+**[CodexEngine](https://github.com/anmolsharma152/CodexEngine)** is a retrieval service that measures its own answers: hybrid pgvector and BM25 search, CrossEncoder reranking, and RAGAS scores against a golden set of queries. [Live demo](https://codex-engine.vercel.app/)
 
-| Project | |
-|---|---|
-| [rust-agent-core](https://github.com/anmolsharma152/rust-agent-core) | Terminal agent runtime in Rust (Tokio): a single-binary REPL with tool calling gated by read-only, safe and unrestricted modes, and local ONNX embeddings, so search needs no network. |
-| [respy](https://github.com/anmolsharma152/respy) | Redis-compatible server and pub/sub broker written from scratch in Go with only the standard library, including AOF and RDB persistence. |
-| [Aura](https://github.com/anmolsharma152/Aura) | Face authentication for Linux login and `sudo`: a small C PAM module talks over a Unix socket to a Python daemon that runs ONNX liveness and recognition models. |
-| [vad_processor](https://github.com/anmolsharma152/vad_processor) | Voice activity detection in Rust compiled to WebAssembly, running client-side in the browser. |
-| [Space Marine theme](https://github.com/anmolsharma152/omarchy-space-marine-theme) | Desktop theme for Omarchy (Arch + Hyprland), listed in the official Omarchy theme gallery. |
-| [Dotfiles](https://github.com/anmolsharma152/omarchy-quattro-dotfiles) and [homelab](https://github.com/anmolsharma152/homelab) | My Hyprland workstation configuration, and a Docker Compose homelab behind Caddy with PostgreSQL, Redis and self-hosted AI services. |
+**[rust-agent-core](https://github.com/anmolsharma152/rust-agent-core)** is a terminal agent in Rust. It ships as one binary, embeds documents locally with ONNX so search works offline, and gates every tool call behind read-only, safe or unrestricted modes.
 
-### Open source
+**[respy](https://github.com/anmolsharma152/respy)** is a Redis-compatible server and pub/sub broker in Go, written with only the standard library, including both of Redis's persistence formats.
 
-- **[Omarchy](https://github.com/omacom/omarchy)**: [Space Marine theme added to the theme gallery](https://github.com/omacom/omarchy-site/pull/445) (merged); open PRs for [volume control routing](https://github.com/omacom/omarchy/pull/14683) and the [Wayland session file](https://github.com/omacom/omarchy/pull/15812).
-- **[hiring-agent](https://github.com/interviewstreet/hiring-agent)** (HackerRank): [fixed parsing of nested GitHub profile fields](https://github.com/interviewstreet/hiring-agent/pull/362) (merged).
+**[Aura](https://github.com/anmolsharma152/Aura)** brings face login to Linux. A small C PAM module hands each request to a Python daemon over a Unix socket, so the ONNX models never run inside the login process.
 
-### Other projects
+Also: [Disha](https://github.com/anmolsharma152/Disha) (multi-agent job-market research), [commerce_cortex](https://github.com/anmolsharma152/commerce_cortex) (agent with human approval steps and LLM tracing), [a local voice assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant), [Hindi and Hinglish instruction-tuning for Sarvam-1](https://github.com/anmolsharma152/sarvam-1-indic-instructor) (training in progress), [AlgoDeck](https://github.com/anmolsharma152/AlgoDeck), [IdeaForge](https://github.com/anmolsharma152/IdeaForge) and [Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop).
 
-[AlgoDeck](https://github.com/anmolsharma152/AlgoDeck) (DSA practice workstation with an in-browser editor and SM-2 review scheduling) · [IdeaForge](https://github.com/anmolsharma152/IdeaForge) (LangGraph idea-generation agent with pgvector memory) · [Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop) (FSRS spaced-repetition study agent)
+### Contributions to other projects
 
-### Tools
+- **[Omarchy](https://github.com/omacom/omarchy)**: my [theme was added to the official gallery](https://github.com/omacom/omarchy-site/pull/445); pull requests open for [volume routing](https://github.com/omacom/omarchy/pull/14683) and the [Wayland session file](https://github.com/omacom/omarchy/pull/15812).
+- **[hiring-agent](https://github.com/interviewstreet/hiring-agent)** by HackerRank: [fixed parsing of nested GitHub profile fields](https://github.com/interviewstreet/hiring-agent/pull/362) (merged).
 
-Python, Rust, Go, SQL, TypeScript · LangGraph, PyTorch, Hugging Face, ONNX · FastAPI, PostgreSQL / pgvector, Redis, Docker · Linux
+My [Hyprland setup](https://github.com/anmolsharma152/omarchy-quattro-dotfiles), [Space Marine theme](https://github.com/anmolsharma152/omarchy-space-marine-theme) and [homelab](https://github.com/anmolsharma152/homelab) are public too.
 
 ---
 
