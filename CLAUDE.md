@@ -21,4 +21,4 @@ This is the special `anmolsharma152/anmolsharma152` repo: its `README.md` is ren
 - The Pac-Man contribution workflow was removed; the remote `output` branch that held its SVGs may still exist and is unused.
 - CanonData is private (`/home/omarchy/Work/Startup Project`); mention it without a link.
 - Profile pinned repos and bio are set in GitHub settings, not in this repo. Keep them consistent with the README.
-- Only list projects with real code in a public repo. Excluded as of 2026-10-24 because they are empty or docs-only: ML-Foundations, microgguf, switchyard.
+- Only list projects with real code in a public repo. Excluded as of 2026-10-24 because they are empty or docs-only: microgguf, switchyard.

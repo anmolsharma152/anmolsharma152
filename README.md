@@ -20,7 +20,7 @@ I'm looking for roles in AI engineering, agentic systems, backend and systems en
 
 **[Aura](https://github.com/anmolsharma152/Aura)** brings face login to Linux. A small C PAM module hands each request to a Python daemon over a Unix socket, so the ONNX models never run inside the login process.
 
-Also: [Disha](https://github.com/anmolsharma152/Disha) (multi-agent job-market research), [commerce_cortex](https://github.com/anmolsharma152/commerce_cortex) (agent with human approval steps and LLM tracing), [a local voice assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant), [Hindi and Hinglish instruction-tuning for Sarvam-1](https://github.com/anmolsharma152/sarvam-1-indic-instructor) (training in progress), [AlgoDeck](https://github.com/anmolsharma152/AlgoDeck), [IdeaForge](https://github.com/anmolsharma152/IdeaForge) and [Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop).
+Also: [Disha](https://github.com/anmolsharma152/Disha) (multi-agent job-market research), [commerce_cortex](https://github.com/anmolsharma152/commerce_cortex) (agent with human approval steps and LLM tracing), [a local voice assistant](https://github.com/anmolsharma152/Emotion-Aware-Voice-Assistant), [Hindi and Hinglish instruction-tuning for Sarvam-1](https://github.com/anmolsharma152/sarvam-1-indic-instructor) (training in progress), [ML-Foundations](https://github.com/anmolsharma152/ML-Foundations) (coursework notebooks, from classical ML to transformers and RL), [AlgoDeck](https://github.com/anmolsharma152/AlgoDeck), [IdeaForge](https://github.com/anmolsharma152/IdeaForge) and [Scholar-Loop](https://github.com/anmolsharma152/Scholar-Loop).
 
 ### Contributions to other projects
 
